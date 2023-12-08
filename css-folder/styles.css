@@ -43,3 +43,15 @@ body {
   text-decoration: none;
   color:darkblue;
 }
+.section-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  -ms-grid-column-align: center;
+  margin: 20px;
+}
+.section-grid div {
+  height: 300px;
+  width: 100%;
+  background-color:crimson;
+}
