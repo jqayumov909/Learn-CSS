@@ -1,3 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: antiquewhite;
+}
+.nav-flex {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  background-color:ivory;
+}
+.box1 {
+  text-align: center;
+  width: 10%;
+  background-color:aquamarine;
+  border: 1px solid black;
+  box-sizing:border-box;
+}
+.box2 {
+  text-align: center;
+  width: 10%;
+  background-color:beige;
+  border: 1px solid black;
+  box-sizing:border-box;
+}
+.list ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list li {
+  margin: 0 20px;
+}
+.list ul li a {
+  text-decoration: none;
+  color:darkblue;
 }
