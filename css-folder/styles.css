@@ -6,28 +6,29 @@ body {
   background-color: antiquewhite;
 }
 .nav-flex {
-  padding: 10px;
-  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: block;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
   background-color:ivory;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
 }
-.box1 {
+.nav-flex .box1 {
   text-align: center;
   width: 10%;
   background-color:aquamarine;
   border: 1px solid black;
   box-sizing:border-box;
 }
-.box2 {
-  text-align: center;
-  width: 10%;
-  background-color:beige;
-  border: 1px solid black;
-  box-sizing:border-box;
+.nav-flex .list {
+  border: 1px solid yellow;
 }
-.list ul {
+.nav-flex .list ul {
   text-align: center;
   list-style-type: none;
   margin: 0;
@@ -35,13 +36,32 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border:1px solid red;
 }
-.list li {
+.list ul li {
   margin: 0 20px;
 }
 .list ul li a {
   text-decoration: none;
   color:darkblue;
+}
+.nav-flex .box2 {
+  text-align: center;
+  width: 10%;
+  background-color:beige;
+  border: 1px solid black;
+  box-sizing:border-box;
+}
+.box-relative {
+  height: 200px;
+  width: 300px;
+  background-color:cornflowerblue;
+  margin-top: 80px;
+}
+.box-relative .bola {
+  height: 50px;
+  width: 70px;
+  background-color:blue;
 }
 .section-grid {
   display: grid;
