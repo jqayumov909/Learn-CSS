@@ -45,13 +45,13 @@ body {
 }
 .section-grid {
   display: grid;
+  grid-template-rows: repeat(6, 1fr);
   gap: 10px;
-  grid-template-columns: repeat(6, 1fr);
-  -ms-grid-column-align: center;
+  -ms-grid-row-align: center;
   margin: 20px;
 }
 .section-grid div {
-  height: 300px;
+  height: 400px;
   width: 100%;
   background-color:crimson;
 }
