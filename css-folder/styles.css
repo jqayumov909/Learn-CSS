@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Playfair+Display:ital,wght@0,400;1,600&family=Roboto:ital,wght@0,100;1,300&display=swap');
+:root{
+  --Roboto:'Roboto', sans-serif;
+  --Kalnia:'Kalnia', serif;
+  --PlayfairDisplay:'Playfair Display', serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +31,10 @@ body {
   background-color:aquamarine;
   border: 1px solid black;
   box-sizing:border-box;
+  font-family: var(--Kalnia);
+}
+b {
+  display: flex;
 }
 .nav-flex .list {
   border: 1px solid yellow;
@@ -38,6 +48,7 @@ body {
   flex-direction: row;
   justify-content: center;
   border:1px solid red;
+  font-family: var(--Roboto);
 }
 .list ul li {
   margin: 0 20px;
@@ -52,6 +63,7 @@ body {
   background-color:beige;
   border: 1px solid black;
   box-sizing:border-box;
+  font-family: var(--PlayfairDisplay);
 }
 .box-relative {
   height: 200px;
@@ -109,4 +121,11 @@ body {
 }
 .bush-joy {
   height: 400px;
+}
+.conta {
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2018/10/30/16/03/christmas-tree-3784021_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
