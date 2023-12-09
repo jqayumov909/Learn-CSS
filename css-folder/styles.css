@@ -123,9 +123,25 @@ b {
   height: 400px;
 }
 .conta {
-  height: 100vh;
-  background-image: url("https://cdn.pixabay.com/photo/2018/10/30/16/03/christmas-tree-3784021_1280.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  background-color:khaki;
+}
+.conta .container{
+  border: 1px solid red;
+}
+h3{
+  border: 1px solid black;
+  /* line-height: 5;   */
+  word-spacing: 50px;
+}
+.esa {
+  margin-top: 3rem;
+  display: flex;
+}
+.esa .epa {
+  font-size: 2rem;
+}
+.esa .eka {
+  font-size: 30px;
 }
