@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 .nav-flex .box1 {
   text-align: center;
@@ -90,4 +91,22 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.in {
+  border:1px solid black;
+  width: 70%;
+  margin: auto;
+  box-sizing:border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.in .y {
+  height: 100px;
+  width: 100px;
+  background-color:deeppink;
+  margin: 5px;
+}
+.bush-joy {
+  height: 400px;
 }
